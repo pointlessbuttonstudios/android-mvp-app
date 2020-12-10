@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="app_tagline">Let\'s bring the pro\'s together</string>
+    <string name="todo">TODO</string>
+    <string name="empty_list_message">FRESH!\nTap to add a pro!</string>
+    <string name="app_title">M V P</string>
+    <string name="delete_preferences">Delete Preferences</string>
+    <string name="settings">settings</string>
+    <string name="personality">Personality</string>
+    <string name="member_name">Member Name</string>
+    <string name="member_position">Member Position</string>
+    <string name="interests">Interests</string>
+    <string name="preferences">Preferences</string>
+    <!-- Regular lorem ipsum just doesn't make me happy like this does  http://www.catipsum.com/index.php#.X3YXemhKjmE -->
+    <string name="cat_ipsum">Put toy mouse in food bowl run out of litter box at full speed purr at all times run around the house at 4 in the morning. Climb leg cry louder at reflection lick left leg for ninety minutes, still dirty. Nyan fluffness ahh cucumber! </string>
+    <string name="chat">Chat</string>
+    <string name="meet_the_team">Meet the Team</string>
+</resources>

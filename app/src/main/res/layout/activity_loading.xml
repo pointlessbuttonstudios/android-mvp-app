@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:layout_marginTop="@dimen/loading_logo_top"
+            android:id="@+id/myImageView"
+            android:layout_width="@dimen/loading_logo"
+            android:layout_height="@dimen/loading_logo"
+            android:src="@drawable/loading_logo" />
+        <TextView
+            android:fontFamily="@font/comfortaa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold"
+            android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/myImageView"
+            android:layout_alignTop="@id/myImageView"
+            android:layout_alignRight="@id/myImageView"
+            android:layout_alignBottom="@id/myImageView"
+            android:gravity="center"
+            android:text="@string/app_title"
+            android:textColor="@color/white"
+            android:layout_alignStart="@id/myImageView"
+            android:layout_alignEnd="@id/myImageView" />
+    </RelativeLayout>
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/mini"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/loading_circle"
+        android:layout_height="@dimen/loading_circle"/>
+    <TextView
+        android:fontFamily="@font/comfortaa"
+        android:layout_marginTop="@dimen/mini"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:text="@string/app_tagline"/>
+</RelativeLayout>
